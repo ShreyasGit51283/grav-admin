@@ -1,0 +1,51 @@
+
+#body-wrapper {
+    max-width: 60%;
+    margin: auto;
+    line-height:2;
+}
+.tile {
+    border-bottom: 1px solid #d2d2d2;
+}
+
+img.myclass {
+    width: 4.6rem;
+    margin: 1rem;
+}
+img.logoadobe {
+    width: 2.4rem;
+    margin: 1rem;
+}
+hr {
+  border-top: 1px solid #eaeaea;
+}
+
+h3 {line-height: 1.5;
+}
+time.dt-published {
+    color: #828282;
+}
+
+
+
+.portfolio {
+    margin: auto;
+    text-align: center;
+    margin-top:2rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    font-size: .8rem;
+    line-height: 0!important;
+    display: inline-block;
+    padding:0px;
+    padding: 25px!important;
+  }
+
+
+
+  .iconbar {
+    font-size: 30px;
+    color: #3084ee;
+}
