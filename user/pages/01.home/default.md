@@ -29,5 +29,5 @@ ___
 ![](YoActiv.png?classes=myclass "My title") ![](Wafer.png?classes=myclass "My title") ![](Gabi.png?classes=myclass "My title")
 
 <div class="portfolio">
-<button class="btn btn-primary portfolio">VIEW PORTFOLIO ON BEHANCE</button>
+<a class="btn btn-primary portfolio" href="https://www.behance.net/shreyas">VIEW PORTFOLIO ON BEHANCE</a>
     </div>
