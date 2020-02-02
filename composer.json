@@ -102,8 +102,14 @@
         "phpstan-framework": "vendor/bin/phpstan analyse -l 5 -c ./tests/phpstan/phpstan.neon system/src/Grav/Framework --memory-limit=256M",
         "phpstan-plugins": "vendor/bin/phpstan analyse -l 0 -c ./tests/phpstan/plugins.neon user/plugins --memory-limit=256M",
         "test": "vendor/bin/codecept run unit",
-        "test-windows": "vendor\\bin\\codecept run unit"
+        "test-windows": "vendor\\bin\\codecept run unit",
+        "compile": [
+          "php bin/grav install",
+          "php bin/gpm install admin -y",
+          "php bin/gpm install quark -y"
+        ]
     },
+
     "extra": {
         "branch-alias": {
             "dev-develop": "1.x-dev"
