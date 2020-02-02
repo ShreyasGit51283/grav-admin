@@ -9,6 +9,8 @@ content:
         dir: ''
 ---
 
+! Apologies for the design breaking. I am currently moving my site to Grav and Heroku and some stuff like the CSS is just breaking. Please bearwith.
+
 # Hi there. I’m a designer.  
 <div class="iconbar">
     <a class="" href="https://www.behance.net/shreyas" target="_blank"><i class="fa fa-behance" aria-hidden="true"></i></a>
